@@ -1,0 +1,240 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1400px;
+}
+
+body {
+    background-image: url("images/ripples.png");
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+h1 a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    width: 450px;
+    display: flex;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    margin: 10px auto;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+ul a {
+    color: black;
+}
+
+main > img {
+    display: block;
+    width: 1270px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 5px;
+    margin: 10px auto;
+    width: 1280px;
+    text-align: center;
+}
+
+h2 {
+    width: 1270px;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background: #FF003F;
+    color: white;
+    font-size: 1.7em;
+}
+
+main > a {
+    margin: 0 auto;
+    background: #FF003F;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    width: 1270px;
+    display: block;
+    padding-bottom: 35px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+main > p {
+    margin-bottom: 70px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+section img, section p, section h3 {
+    width: 631px;
+    height: auto;
+}
+
+.sections-index {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(40, 40, 43);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 1280px;
+    margin: 100px auto 10px auto;
+}
+
+h1 a:hover {
+    color:  #FF003F;
+    text-decoration: underline;
+}
+
+ul a:hover {
+    color: #FF003F;
+    font-weight: bold;
+}
+
+main > a:hover {
+    color: #8cc751;
+    font-weight: bold;
+}
+
+
+/* contact.html */
+#form img {
+    width: 750px;
+    height: 710px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#form > p {
+    margin: 0 auto;
+    width: 1270px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#form h2 {
+    color: white;
+    background-color: #FF003F;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+/* Form */
+form { 
+    width: 450px;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+input, label, select, textarea {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    color: rgb(40, 40, 43);
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+input[type=text], select, textarea {
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 0 4px grey;
+    transition: .2s box-shadow;
+}
+
+select {
+    height: 30px;
+}
+
+fieldset > legend { 
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    margin-right: 33px;
+    margin-left: 33px;
+    border-color: #B0B0B0;
+    border-width: 1px;
+}
+
+input[type=text], select[name=state] {
+    height: 35px;
+    border-color: #B0B0B0;
+    border-width: 1px;
+}
+
+textarea[name=comments] {
+    height: 80px;
+}
+
+input[type=submit] {
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #FF003F;
+}
+
+input[type=text]:hover, textarea:hover, select:hover {
+    border-width: 2px;
+    box-shadow: 0 0 4px black;
+}
+
+input:focus, textarea:focus, select:focus {
+    background-color:#D0F0C0;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    color: #D0F0C0;
+    background-color: rgb(40, 40, 43);
+}
+
